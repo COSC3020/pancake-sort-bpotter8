@@ -30,3 +30,8 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+Answer:
+
+In terms of the number of comparisons, this algorithm has a runtime of $\Theta (n^2)$. The pancakeSort function iterates $n$ times and the flip function is called twice so it also iterates n times, making it $n^2$.
+
+In terms of the number of flips, this algorithm has a runtime of $\Theta (n)$. The amount of flips that occur is linear dependent on the size of the array.
